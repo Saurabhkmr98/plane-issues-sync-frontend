@@ -28,6 +28,35 @@
   color: #61dafb;
 }
 
+.main-body {
+  height: 400px;
+  background: black;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.button-style {
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 20px;
+  color: white;
+  font-weight: 700;
+  width: 400px;
+  background-color: blue;
+  border: 1px solid #fff;
+}
+
+.progress-body {
+  gap: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
